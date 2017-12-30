@@ -9,9 +9,12 @@
 </head>
 
 <body>
+  <div>
+    <h1>LIFO (O último a entrar é o primeiro a sair)</h1>
+  </div>
 
   <div>
-    <h1>Testando a class STACK</h1>
+    <h2>Testando a class STACK</h2>
     <div>
       <input type="text" data-js="elemento" placeholder="Elemento">
       <button type="button" data-js="adicionar">Adicionar</button>
@@ -29,13 +32,29 @@
   </div>
 
   <div>
-    <h1>Decimal para binário</h1>
+    <h2>Decimal para binário</h2>
     <div>
-      <input type="number" data-js="numeroDecimal">
-      <button type="button" data-js="convensor">Converter</button>
+      <input type="number" data-js="numeroDecimal" placeholder="Decimal">
+      <button type="button" data-js="conversor">Converter</button>
     </div>
     <div>
-      <p data-js="resultadoBinario">Resultado é:</p>
+      <p data-js="resultadoBinario"></p>
+    </div>
+  </div>
+
+  <div>
+    <h2>Conversor decimal para Binário, Octal e Hexadecimal</h2>
+    <div>
+      <input type="number" data-js="numeroDecimalQualquerBase" placeholder="Decimal">
+      <select data-js="numeroBase">
+        <option value="2">2</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+      </select>
+      <button type="button" data-js="conversorQualquerBase">Converter</button>
+    </div>
+    <div>
+      <p data-js="resultadoQualquerBase"></p>
     </div>
   </div>
 
