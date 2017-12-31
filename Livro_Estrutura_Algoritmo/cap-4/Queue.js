@@ -36,4 +36,6 @@ const Queue = (function () {
     }
   }
 
+  return Queue;
+
 })();

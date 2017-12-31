@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cap-4</title>
+</head>
+
+<body>
+
+  <div>
+    <h1>FIFO(O primeiro a entrar é o primeiro a sair)</h1>
+  </div>
+
+  <div>
+    <h2>Fila de prioridades</h2>
+    <input type="text" data-js="nome" placeholder="Nome:">
+    <select data-js="prioridades">
+      <option value="1">Estagiário</option>
+      <option value="2">Júnior</option>
+      <option value="3">Desenvolvedor Pleno</option>
+      <option value="4">Desenvolvedor Senior</option>
+      <option value="5">Analista</option>
+      <option value="6">Supervisor</option>
+      <option value="7">Gerente</option>
+      <option value="8">Diretor</option>
+      <option value="9">Presidente</option>
+    </select>
+    <button type="button" data-js="adicionar">Adicionar</button>
+
+    <div data-js="markup"></div>
+  </div>
+
+  <script src="./Queue.js"></script>
+  <script src="./PrioridadeQueue.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
