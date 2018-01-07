@@ -1,0 +1,1 @@
+E um fork do projeto [UltimateAngular](https://github.com/UltimateAngular/ngrx-store-effects-app) para fins de estudo soren o NgRx.
